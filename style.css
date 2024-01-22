@@ -1,0 +1,79 @@
+@font-face {
+    font-family: MyFont;
+    src: url('./images/fonts/Roboto-Medium.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(14, 14, 39);
+    height: 100vh;
+    font-family: MyFont;
+}
+
+.main {
+    width: 550px;
+    /* height: 320px; */
+    border-radius: 15px;
+    padding: 40px;
+    background-color: rgba(94, 94, 120, 0.441);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main h3 {
+    color: green;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.main h1 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.divider {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.main a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 660px) {
+    .main {
+        width: 80%; /* Adjust the width as needed */
+        max-width: none; /* Remove max-width if you want to use a fixed width */
+        margin: 0 auto;
+        /* Other styles for smaller screens */
+    }
+
+    .divider {
+        width: 100%;
+    }
+}
