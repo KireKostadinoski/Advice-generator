@@ -72,10 +72,8 @@ body {
 
 @media screen and (max-width: 660px) {
     .main {
-        width: 80%; /* Adjust the width as needed */
-        max-width: none; /* Remove max-width if you want to use a fixed width */
-        margin: 0 auto;
-        /* Other styles for smaller screens */
+        width: 80%; 
+        max-width: none;
     }
 
     .divider {
