@@ -20,7 +20,7 @@ body {
 
 .main {
     width: 550px;
-    /* height: 320px; */
+    height: 320px; 
     border-radius: 15px;
     padding: 40px;
     background-color: rgba(94, 94, 120, 0.441);
